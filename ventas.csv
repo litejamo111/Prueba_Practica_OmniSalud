@@ -1,0 +1,33 @@
+fecha,producto,categoria,cantidad,precio_unitario,vendedor,region
+2024-01-15,Laptop HP,Tecnología,2,1500000,Carlos Mejía,Norte
+2024-01-15,Mouse Inalámbrico,Tecnología,10,35000,María López,Sur
+2024-01-16,Silla Ergonómica,Mobiliario,3,450000,Carlos Mejía,Norte
+2024-01-16,Teclado Mecánico,Tecnología,5,85000,María López,Sur
+2024-01-17,Monitor 27 pulgadas,Tecnología,4,650000,Pedro Gómez,Centro
+2024-01-17,Escritorio Ejecutivo,Mobiliario,2,800000,Pedro Gómez,Centro
+2024-01-18,Laptop HP,Tecnología,1,1500000,Ana Ruiz,Norte
+2024-01-18,Audífonos Bluetooth,Tecnología,8,120000,Ana Ruiz,Sur
+2024-01-19,Impresora Láser,Tecnología,2,890000,Carlos Mejía,Norte
+2024-01-19,Archivador Metálico,Mobiliario,4,320000,María López,Sur
+2024-01-20,Tablet Samsung,Tecnología,3,980000,Pedro Gómez,Centro
+2024-01-20,Lámpara LED,Mobiliario,6,85000,Ana Ruiz,Norte
+2024-01-21,Cámara Web HD,Tecnología,12,145000,Carlos Mejía,Norte
+2024-01-21,Silla Ejecutiva,Mobiliario,2,680000,María López,Sur
+2024-01-22,Disco Duro Externo,Tecnología,7,250000,Pedro Gómez,Centro
+2024-01-22,Mesa de Juntas,Mobiliario,1,2500000,Ana Ruiz,Centro
+2024-01-23,Memoria USB 64GB,Tecnología,20,28000,Carlos Mejía,Norte
+2024-01-23,Papelera Metálica,Mobiliario,10,45000,María López,Sur
+2024-01-24,Router WiFi,Tecnología,5,185000,Pedro Gómez,Centro
+2024-01-24,Biblioteca Modular,Mobiliario,2,950000,Ana Ruiz,Norte
+2024-01-25,Laptop Lenovo,Tecnología,3,1350000,Carlos Mejía,Sur
+2024-01-25,Silla Visitante,Mobiliario,8,180000,María López,Centro
+2024-01-26,Monitor Curvo,Tecnología,2,1200000,Pedro Gómez,Norte
+2024-01-26,Sofá Recepción,Mobiliario,1,1800000,Ana Ruiz,Centro
+2024-01-27,UPS 1000VA,Tecnología,4,420000,Carlos Mejía,Sur
+2024-01-27,Perchero Ejecutivo,Mobiliario,3,290000,María López,Norte
+2024-01-28,Proyector HD,Tecnología,2,1650000,Pedro Gómez,Centro
+2024-01-28,Mesa Auxiliar,Mobiliario,5,220000,Ana Ruiz,Sur
+2024-01-29,Switch de Red,Tecnología,3,380000,Carlos Mejía,Norte
+2024-01-29,Cajonera Móvil,Mobiliario,6,350000,María López,Centro
+2024-01-30,Laptop Dell,Tecnología,2,1750000,Pedro Gómez,Sur
+2024-01-30,Divisor de Ambiente,Mobiliario,2,580000,Ana Ruiz,Norte

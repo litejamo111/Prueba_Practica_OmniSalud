@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de Ventas</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        h1 { text-align: center; }
+        .container { max-width: 900px; margin: 0 auto; }
+        .row { display: flex; gap: 30px; margin-top: 20px; }
+        canvas { max-height: 300px; }
+        table { width: 100%; border-collapse: collapse; border: 1px solid #ddd; }
+        th, td { padding: 10px; text-align: left; border: 1px solid #ddd; }
+        th { background: #f0f0f0; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Dashboard de Ventas por Región</h1>
+    
+    <div class="container">
+        <div class="row">
+            <div style="flex: 1;">
+                <canvas id="chart"></canvas>
+            </div>
+            <div style="flex: 1;">
+                <table>
+                    <tr><th>Región</th><th>Total Ventas</th><th>Transacciones</th><th>Ticket Promedio</th></tr>
+                    <tr><td>Centro</td><td>$20,955,000</td><td>10</td><td>$2,095,500</td></tr>
+                    <tr><td>Norte</td><td>$17,910,000</td><td>12</td><td>$1,492,500</td></tr>
+                    <tr><td>Sur</td><td>$15,155,000</td><td>10</td><td>$1,515,500</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        new Chart(document.getElementById('chart'), {
+            type: 'bar',
+            data: {
+                labels: ['Centro', 'Norte', 'Sur'],
+                datasets: [{
+                    label: 'Ventas',
+                    data: [20955000, 17910000, 15155000],
+                    backgroundColor: ['#667eea', '#764ba2', '#ed64a6']
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: { y: { beginAtZero: true } }
+            }
+        });
+    </script>
+</body>
+</html>
